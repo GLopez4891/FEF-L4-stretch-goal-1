@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo"></p>
+
+
+
+<script>
+let newNumber = 10
+
+try {
+  if (newNumber < 5) throw true;
+  if (newNumber > 5) throw "Number is greater than 5";
+  if (newNumber === 10) throw "Number is 10";
+} catch (err) {
+  alert(err);
+}
+console.log("No Error");
+
+
+</script>
+</body>
+</html>
